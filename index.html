@@ -5,35 +5,38 @@
     <title>Untitled</title>
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
 
-<div class="container">
-   <ul class="row">
-       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/1.jpg"></li>
-       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/2.jpg"></li>
-       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/3.jpg"></li>
-       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/4.jpg"></li>
-       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/5.jpg"></li>
-       <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="images/6.jpg"></li>
-   </ul>
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="images/1.jpg" class="fullscreen-bg__video">
+        <source src="video/DekerVideo.mp4" type="video/mp4">
+    </video>
 </div>
 
-<!--
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-      </div>
+  <aside class="sidebar-left">
+    <div>
+      <a class="company-logo" href="#"><img src="images/DA_Logo.png"></a>
     </div>
-  </div>
-</div> -->
 
-  <!--   <div class="video-container">
-      <iframe src="https://player.vimeo.com/video/133171617?autoplay=1&loop=1" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div> -->
+    <div class="sidebar-links">
+      <a class="link-blue" href="#"><i class="fa fa-picture-o"></i>Photography</a>
+      <a class="link-red" href="#"><i class="fa fa-heart-o"></i>Favorites</a>
+      <a class="link-yellow selected" href="#"><i class="fa fa-keyboard-o"></i>Projects</a>
+      <a class="link-green" href="#"><i class="fa fa-map-marker"></i>Places</a>
+    </div>
+
+  </aside>
+
+  <div class="main-content">
+
+    <div class="menu">
+
+    </div>
+
+  </div>
 
 
  <script src="js/jquery-1.8.1.min.js"></script>
