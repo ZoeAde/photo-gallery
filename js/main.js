@@ -7,4 +7,9 @@ $(document).ready(function(){
         });
     });
 
+    $('.link-blue').click(function(){
+        window.location.href='/video';
+    });
+
+
 });

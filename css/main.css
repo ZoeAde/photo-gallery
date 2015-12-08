@@ -27,20 +27,9 @@ background-color: transparent;
 }
 
 .sidebar-left a.company-logo>img {
-/*  display: block;*/
-/*  text-decoration: none;
-  font-family: Cookie, cursive;*/
-  width: 100px;
-  height: 100px;
-/*  margin: 0 auto;
-  padding: 0;*/
+  width: 100%;
+  height: 100%;
   text-align: center;
-/*  color:  #ffffff;
-  font-size: 28px;
-  font-weight: normal;
-  line-height: 2.6;
-  border-radius: 50%;
-  background-color:  #181a1b;*/
 }
 
 .sidebar-left .sidebar-links {
@@ -122,6 +111,7 @@ background-color: transparent;
     height: auto;
     position: inherit;
     padding: 20px 0 0;
+    text-align: center;
   }
 
   .sidebar-left .sidebar-links {
@@ -138,6 +128,12 @@ background-color: transparent;
     border-top-width: 2px;
     border-top-style: solid;
   }
+
+
+  .sidebar-left a.company-logo>img {
+  width: 45%;
+  height: 45%;
+}
 
 }
 
@@ -173,6 +169,11 @@ background-color: transparent;
     width: 20px;
     margin: 0 20px 0 0;
     vertical-align: middle;
+  }
+
+  .sidebar-left a.company-logo>img {
+    width: 65%;
+    height: 65%;
   }
 
 }
