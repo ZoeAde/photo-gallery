@@ -8,6 +8,19 @@
 }
 
 
+.navLogo {
+  width: 75px;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline>img {
+  width: 33vw;
+  height: auto;
+}
+
 /* The left sidebar */
 
 .sidebar-left {

@@ -1,0 +1,87 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><img src="images/DA_Logo.png" class="navLogo"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/">Home</a></li>
+        <li><a href="/video">Video</a></li>
+        <li><a href="/photography">Photography</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="/">Home</a></li>
+        <li><a href="/video">Video</a></li>
+        <li><a href="/photography">Photography</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="mobile.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+<!-- CONTACT FORM -->
+<div class="container">
+    <div class="row">
+        <div class="col m6 s12">
+            <h2 class="center-align">Pricing</h2>
+            <div class="row">
+                <div class="col s12">
+                  <p>Bacon ipsum dolor amet ham tail porchetta shankle ham hock shoulder meatloaf flank chicken spare ribs meatball tri-tip cupim sausage short loin. T-bone beef fatback bacon spare ribs, prosciutto jerky drumstick short loin shoulder. Picanha pork meatball t-bone, cow shoulder tail pastrami shankle fatback. Fatback salami ribeye biltong short ribs venison corned beef t-bone shank pork belly strip steak. Pastrami alcatra meatloaf spare ribs sirloin short loin andouille pig t-bone tail kielbasa bacon brisket. Meatloaf kielbasa shoulder pork pork belly. Chicken ham t-bone tri-tip.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col m6 s12">
+            <h5 class="center-align">Contact</h5>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <i class="mdi-content-mail prefix"></i>
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <i class="mdi-maps-store-mall-directory prefix"></i>
+                            <input id="company" type="text" class="validate">
+                            <label for="company">Company</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="message" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col m12">
+                         <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
