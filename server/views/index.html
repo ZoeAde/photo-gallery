@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+
+<aside class="sidebar-left">
+  <div>
+    <a class="company-logo" href="/"><img src="../images/DA_Logo.png"></a>
+  </div>
+  <div class="sidebar-links">
+    <a class="link-green" href="/video"><i class="fa fa-video-camera"></i>Video</a>
+    <a class="link-green" href="/photography"><i class="fa fa-picture-o"></i>Photography</a>
+
+    <a class="link-green" href="/services"><i class="fa fa-briefcase"></i>Services</a>
+    <a class="link-green" href="/about"><i class="fa fa-user"></i>About</a>
+  </div>
+</aside>
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="images/2.jpg" class="fullscreen-bg__video">
+        <source src="d2.mp4" type="video/mp4">
+    </video>
+</div>
+
+{% endblock %}
