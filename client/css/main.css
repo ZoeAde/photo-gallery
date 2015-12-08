@@ -21,6 +21,29 @@
   height: auto;
 }
 
+.parallax-container {
+  height: 78vh;
+}
+
+.parallax {
+  text-align: center;
+}
+
+.parallaxText {
+   /*position:relative;*/
+   z-index:10;
+   margin-left: 38vw;
+   color: white;
+}
+.parallaxImg {
+   position:absolute;
+/*   left:0px;
+   top:0px;
+   width:100%;
+   height:100%;*/
+   z-index:1;
+}
+
 /* The left sidebar */
 
 .sidebar-left {

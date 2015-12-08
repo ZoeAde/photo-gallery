@@ -4,6 +4,13 @@
 
 
 {% block content %}
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Astrophotography</a></li>
+    <li><a href="#!">Steel Wool</a></li>
+    <li><a href="#!">Portraits</a></li>
+    <li><a href="#!">Landscape</a></li>
+  </ul>
+
   <nav>
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo"><img src="images/DA_Logo.png" class="navLogo"></a>
@@ -11,42 +18,22 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="/">Home</a></li>
         <li><a href="/video">Video</a></li>
-        <li><a href="/photography">Photography</a></li>
+        <li><a class="dropdown-button" href="/photography" data-activates="dropdown1">Photography</a></li>
         <li><a href="/services">Services</a></li>
         <li><a href="/about">About</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="/">Home</a></li>
         <li><a href="/video">Video</a></li>
-        <li><a href="/photography">Photography</a></li>
+<!--         <li><a class="dropdown-button" href="/photography" data-activates="dropdown1">Photography</a></li> -->
         <li><a href="/services">Services</a></li>
         <li><a href="mobile.html">About</a></li>
       </ul>
     </div>
   </nav>
 
-<!--   <div class="parallax-container">
-    <div class="parallax">
-      <img src="images/3.jpg">
-    </div>
-  </div>
 
-
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="images/2.jpg">
-    </div>
-  </div>
-
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="images/1.jpg">
-    </div>
-  </div> -->
-
-
-
-  <div class="row">
+<!--   <div class="row">
     <div class="col s12">
       <ul class="tabs">
         <li class="tab col s3"><a href="#test1">Astrophotography</a></li>
@@ -55,20 +42,9 @@
         <li class="tab col s3"><a href="#test4">Landscape</a></li>
       </ul>
     </div>
-  </div>
+  </div> -->
 
-
-<!-- <div class="section">
-  <div class="row container">
-    <h1>Photos</h1>
-    <p>
-      blah blah blah blah
-    </p>
-  </div>
-</div> -->
-
-
-  <div>
+<!--   <div>
     <div id="test1" class="col s12 inline">
       <img src="images/1.jpg">
       <img src="images/1.jpg">
@@ -110,6 +86,49 @@
       <img src="images/4.jpg">
       <img src="images/4.jpg">
     </div>
+  </div> -->
+
+
+<div class="parallax-container">
+  <div class="parallax valign-wrapper">
+    <h1 class="valign center-align parallaxText">STEEL WOOL</h1>
+    <img class="parallaxImg" src="images/photo.jpg">
   </div>
+</div>
+
+<div class="parallax-container">
+  <div class="parallax valign-wrapper">
+    <h1 class="valign center-align parallaxText">PORTRAITS</h1>
+    <img class="parallaxImg" src="images/2.jpg">
+  </div>
+</div>
+
+<div class="parallax-container">
+  <div class="parallax valign-wrapper">
+    <h1 class="valign center-align parallaxText">LANDSCAPE</h1>
+    <img class="parallaxImg" src="images/1.jpg">
+  </div>
+</div>
+
+<!-- <div class="row">
+  <div class="col s12">
+    <h1>View Categories</h1>
+      <ul class="inline">
+        <li class=""><a href="#test1">Astrophotography</a></li>
+        <li class=""><a href="#test2">Steel Wool</a></li>
+        <li class=""><a href="#test3">Portraits</a></li>
+        <li class=""><a href="#test4">Landscape</a></li>
+      </ul>
+  </div>
+</div> -->
+<!--
+<div class="section white">
+    <div class="row container">
+      <h2 class="header">Parallax</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    </div>
+</div> -->
+
+
 
 {% endblock %}
