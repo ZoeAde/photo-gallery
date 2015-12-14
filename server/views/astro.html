@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+  <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo"><img src="images/DA_Logo.png" class="navLogo"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">view_headline</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/">Home</a></li>
+        <li><a href="/video">Video</a></li>
+        <li><a class="dropdown-button" href="/photography" data-activates="dropdown1">Photography</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+
+      <!-- SIDE NAV -->
+      <ul class="side-nav" id="mobile-demo">
+        <li class="bold"><a href="/">Home</a></li>
+        <li class="bold"><a href="/video">Video</a></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li class="active"><a class="bold collapsible-header active waves-effect waves-teal">Photography</a>
+              <div class="collapsible-body" style="display: block;">
+                <ul>
+                  <li class="italic"><a href="/astrophotography">Astrophotography</a></li>
+                  <li class="italic"><a href="/steelwool">Steel Wool</a></li>
+                  <li class="italic"><a href="/portraits">Portraits</a></li>
+                  <li class="italic"><a href="/landscape">Landscape</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="bold"><a href="/services">Services</a></li>
+        <li class="bold"><a href="mobile.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+<div class="row">
+  <img class="materialboxed col s4" data-caption="A picture of some deer and tons of trees" src="images/1.jpg">
+  <img class="materialboxed col s4" data-caption="A picture of some deer and tons of trees" src="images/2.jpg">
+  <img class="materialboxed col s4" data-caption="A picture of some deer and tons of trees" src="images/3.jpg">
+  <img class="materialboxed col s4" data-caption="A picture of some deer and tons of trees" src="images/4.jpg">
+  <img class="materialboxed col s4" data-caption="A picture of some deer and tons of trees" src="images/6.jpg">
+  <img class="materialboxed col s4" data-caption="A picture of some deer and tons of trees" src="images/2.jpg">
+</div>
+
+{% endblock %}
