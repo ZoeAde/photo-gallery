@@ -1,8 +1,4 @@
 /* The main content */
-.full {
-  width: 100vw;
-}
-
 .main-content {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 600px;
@@ -345,9 +341,11 @@ img {
   list-style: none;
 }
 
-/*.inlineVideos>iframe {
-  width: 50em;
-  height: 30em;
-}*/
+.full {
+  width: 100vw !important;
+  background-color: rgba(20,20,20, 0.7);
+}
 
-
+.innerTab {
+  background-color: transparent;
+}
