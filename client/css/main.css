@@ -14,7 +14,6 @@
   font-style: italic;
 }
 
-
 .navLogo {
   width: 75px;
 }
@@ -326,16 +325,6 @@ img {
   }
 }
 
-/*@media (max-width: 767px) {
-  .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
-  }
-
-  .fullscreen-bg__video {
-    display: none;
-  }
-}*/
-
 .inlineVideos>ul {
   display: inline-block;
   list-style: none;
@@ -348,4 +337,22 @@ img {
 
 .innerTab {
   background-color: transparent;
+}
+
+/* COLORS */
+
+.tabs .tab a {
+  color: rgb(176, 190, 197);
+}
+
+.tabs .tab a:hover {
+  color: rgb(109, 158, 62);
+}
+
+.tabs .tab:active {
+  color: rgb(109, 158, 62);
+}
+
+.tabs .indicator {
+  background-color: rgb(176, 190, 197);
 }
